@@ -8,7 +8,7 @@ Data engineering project that takes data provided by a Kafka cluster, cleans it 
 
 `bash clear_tables.sh` Clears data from the tables (but does not remake them)
 
-`lmnh_schema.sql` Defines the database Schema and provides seed data - Specific for LMNH
+`schema.sql` Defines the database Schema and provides seed data
 
 `test_realtime_pipeline.py` Contains tests for `realtime_pipeline.py`
 
